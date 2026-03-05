@@ -39,24 +39,5 @@ API RESTful profesional para el monitoreo y control de un sistema de riego autom
 | **Flask-RESTX** | 1.0+ | API RESTful con Swagger automático |
 | **Flask-CORS** | 3.0+ | Habilitar CORS para Flutter/Web |
 | **Python-dotenv** | 0.19+ | Gestión de variables de entorno |
-
-## 📁 Estructura del Proyecto (MVC)
-
-
-sistema-riego-api/
-├── 📂 src/
-│ ├── 📂 models/ # Capa de Modelos
-│ │ └── riego_models.py # Modelos de datos (sensores, bomba)
-│ │
-│ ├── 📂 routes/ # Capa de Controladores/Rutas
-│ │ └── riego_routes.py # Endpoints de la API
-│ │
-│ └── 📂 services/ # Capa de Servicios/Lógica de negocio
-│ └── riego_service.py # Lógica de almacenamiento y procesamiento
-│
-├── 📂 pycache/ # Archivos compilados de Python
-│
-
-├── app.py # Punto de entrada de la aplicación
-├── config.py # Configuraciones y variables de entorno
+de entorno
 ├── extensions.py # Inicialización de extensiones Flask
