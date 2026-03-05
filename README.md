@@ -4,7 +4,7 @@
 ![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)
 ![Flask-RESTX](https://img.shields.io/badge/Flask--RESTX-1.0+-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Arquitectura](https://img.shields.io/badge/Arquitectura-MVC- purple)
+![Arquitectura](https://img.shields.io/badge/Arquitectura-MVC-purple)
 
 API RESTful profesional para el monitoreo y control de un sistema de riego automatizado. Desarrollada con Flask y Flask-RESTX siguiendo una arquitectura por capas (MVC) para garantizar escalabilidad y mantenibilidad.
 
@@ -41,6 +41,8 @@ API RESTful profesional para el monitoreo y control de un sistema de riego autom
 | **Python-dotenv** | 0.19+ | Gestión de variables de entorno |
 
 ## 📁 Estructura del Proyecto (MVC)
+
+
 sistema-riego-api/
 ├── 📂 src/
 │ ├── 📂 models/ # Capa de Modelos
@@ -54,6 +56,7 @@ sistema-riego-api/
 │
 ├── 📂 pycache/ # Archivos compilados de Python
 │
+
 ├── app.py # Punto de entrada de la aplicación
 ├── config.py # Configuraciones y variables de entorno
 ├── extensions.py # Inicialización de extensiones Flask
